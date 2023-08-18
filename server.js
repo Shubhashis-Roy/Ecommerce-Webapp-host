@@ -7,9 +7,14 @@ import productRouters from "./routes/productRouters.js";
 import cors from "cors";
 import connectDb from "./config/db.js";
 import path from "path";
+import {fileURLToPath} from "url";
 
 // rest obj.
 const app = express();
+
+// esmodule fix
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // middelwares
 app.use(cors());
