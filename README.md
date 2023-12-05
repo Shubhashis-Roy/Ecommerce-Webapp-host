@@ -10,6 +10,8 @@
 - This repository is used to host this Web App at Cyclic. First, run `npm run build` on the local machine and then push that's why in this repository code is bundled together. Below I provided the actual GitHub repository.
 - Repository link: <a href= "https://github.com/Shubhashis-Roy/Ecommerce-Delivery-WebApp" > Source Code </a>
 
+<hr/>
+
 <h3> <a href= "https://charming-lime-scallop.cyclic.cloud" >Live Demo</a> </h3>
 
 <div style="display:flex;">
